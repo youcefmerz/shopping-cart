@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/f9c4d13bd1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="top-bar">
+<h1 class="title">My shopping bag</h1>
+    </header>
+    <main class="container">
+      <div class="content">
+
+    <table>
+    <tr>
+        <th></th>
+        <th>Article</th>
+        <th></th>
+        <th>Quantité</th>
+        <th>Prix</th>
+        <th></th>
+    </tr>
+    <tr class="childs">
+        <td>
+            <i class="fas fa-heart" id="likebut" style="color: #E1E8EE"; width="40px" height="25px"></i>
+          </td>
+        <td> <img class="items-images" src="./res/item-1.png" ></td>
+        <td class="desc" >
+            <p class="description">Nike shoe Air force</p>
+             <p class="description" id="description2">White</p>
+        </td>
+        <td>
+            <button type="button" class="plus"><img src="./res/plus.svg"></button>
+            <input type="text" class="quantity-input" value="1">
+            <button type="button" class="minus"><img src="./res/minus.svg"></button>
+             
+            </td>
+        <td class="prix">
+           <p class="price-child">120</p><p>Da</p>
+            <input class="prix-unit" type="hidden" value="120" >
+        </td>
+        <td> <i class="fas fa-times" id="delete" style="color: #E1E8EE;"></i></td>
+    </tr>
+ 
+    <tr class="childs">
+        <td>
+            <i class="fas fa-heart" id="likebut" style="color: #E1E8EE"; width="40px" height="25px"></i>
+          </td>
+        <td> <img class="items-images" src="./res/item-2.png" ></td>
+        <td class="desc" >
+            <p class="description">Zara shoe</p>
+             <p class="description" id="description2">White</p>
+        </td>
+        <td>
+            <button type="button" class="plus"><img src="./res/plus.svg"></button>
+            <input type="text" class="quantity-input" value="1">
+            <button type="button" class="minus"><img src="./res/minus.svg"></button>
+             
+            </td>
+        <td class="prix">
+           <p class="price-child">180</p><p>Da</p>
+            <input class="prix-unit" type="hidden" value="180" >
+        </td>
+        <td> <i class="fas fa-times" id="delete" style="color: #E1E8EE;"></i></td>
+    </tr>
+   
+    <tr class="childs">
+        <td>
+            <i class="fas fa-heart" id="likebut" style="color: #E1E8EE"; width="40px" height="25px"></i>
+          </td>
+        <td> <img class="items-images" src="./res/item-3.png" ></td>
+        <td class="desc" >
+            <p class="description">Zara sac</p>
+             <p class="description" id="description2">White</p>
+        </td>
+        <td>
+            <button type="button" class="plus"><img src="./res/plus.svg"></button>
+            <input type="text" class="quantity-input" value="1">
+            <button type="button" class="minus"><img src="./res/minus.svg"></button>
+            
+            </td>
+        <td class="prix">
+           <p class="price-child">80</p><p>Da</p>
+            <input class="prix-unit" type="hidden" value="80" >
+        </td>
+        <td> <i class="fas fa-times" id="delete" style="color: #E1E8EE;"></i></td>
+    </tr>
+    </table>
+    <br><div class="total">Total:    0 Da </div>
+      <br></div>
+
+    </main>
+    <script src="./js/script.js"></script>
+   
+</body>
+</html>
